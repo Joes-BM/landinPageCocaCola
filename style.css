@@ -10,6 +10,7 @@ body{
 }
 a{
     display: inline-block;
+    text-decoration: none;
 }
 p{
     color: black;
@@ -39,15 +40,28 @@ footer .barra-footer{
     text-align: center;
     padding: 20px 15px;
 }
-footer ul{
-    padding-left: 0;
-    list-style: none;
-}
 footer .logo-footer{
     width: 100%;
 }
 footer p{
     color: white;
+}
+footer ul{
+    padding-left: 0;
+    list-style: none;
+}
+footer ul li{
+    margin-bottom: 15px;
+}
+footer a{
+    color: white;
+}
+footer .redes{
+    font-size: 30px;
+    display: flex;
+}
+footer .redes a{
+    margin-right:15px;
 }
 .boton{
     text-align: center;
