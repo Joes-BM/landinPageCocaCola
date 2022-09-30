@@ -49,6 +49,7 @@ footer p{
 footer ul{
     padding-left: 0;
     list-style: none;
+    margin: 0;
 }
 footer ul li{
     margin-bottom: 15px;
@@ -62,6 +63,9 @@ footer .redes{
 }
 footer .redes a{
     margin-right:15px;
+}
+footer h3{
+    text-transform: uppercase;
 }
 .boton{
     text-align: center;
